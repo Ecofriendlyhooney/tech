@@ -1,6 +1,7 @@
 ## GCP & Godaddy Domain Link
 
 + GCP Compute Engine / VM instance / Create an instance 
+     - create instance (takes 1~2 mintues)
      - f1-micro - Minimum (about $0.007 hourly, $5.22 monthly estimate)
      - Debian GNU/Linux 9 (stretch) - Basic one
      - Allow HTTP traffic
@@ -28,8 +29,8 @@
 ---
 
 + GCP Network services / Cloud DNS / Zone details (click the Zone name)
-     - Add record set : 'DomainName.com' without www  & Pv4 address : 'External IP'
-     - Add record set : 'WWW.DomainName.com' with www & Pv4 address : 'External IP'
+     - Add record set : Resource record type (A type) & 'DomainName.com' without www  & Pv4 address : 'External IP'
+     - Add record set : Resource record type (A type) & 'WWW.DomainName.com' with www & Pv4 address : 'External IP'
      - copy 4 NS type data(*01)
      
 ---
