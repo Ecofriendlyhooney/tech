@@ -104,7 +104,7 @@
 + [https://jsfiddle.net/#](https://jsfiddle.net/#)
 + [SpringBoot+Doma2+Gradleを試してみた](https://qiita.com/nyasba/items/1e22c2401f3849f9071d)
 + [jenkins pipe line](https://medium.com/@maxy_ermayank/pipeline-as-a-code-using-jenkins-2-aa872c6ecdce)
-+ []()
++ [일본 전력소매시장 자유화 추진 현황 및 향후과제](http://www.keei.re.kr/web_keei/pendingissue.nsf/0/1C3886AC9106C1714925801D00443A37/$file/21_%EC%9D%BC%EB%B3%B8%20%EC%A0%84%EB%A0%A5%EC%86%8C%EB%A7%A4%EC%8B%9C%EC%9E%A5%20%EC%9E%90%EC%9C%A0%ED%99%94%20%EC%B6%94%EC%A7%84%20%ED%98%84%ED%99%A9%20%EB%B0%8F%20%ED%96%A5%ED%9B%84%20%EA%B3%BC%EC%A0%9C.pdf)
 + []()
 + []()
 + []()
