@@ -1,17 +1,28 @@
 # Docker 
 ## Docker
 ### Dockerfile build
-build 'code'
 
-build `code`
+`build` (make sure "." at the end of cmd)
 
-     docker build -t [ repositry_name : tag_name ]
+     docker build -t [repositry_name : tag_name] .
      
-run `code`     
+---     
+### Dockerfile run
+
+`run`     
      
      docker run -it [ docker_image_ID ]
+---
+`8080 port set run`     
      
-### Dockerfile run
+     docker run -p 8080:8080 [ docker_image_ID ]
+---
+`access sh`     
+     
+     docker run -it --entrypoint /bin/sh [ docker_image_ID ]
+---  
+   
+### Dockerfile Delete
 > docker run -it [ docker_image_ID ]
      - run 
 
