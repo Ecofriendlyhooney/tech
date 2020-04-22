@@ -15,7 +15,10 @@ run `code`
 > docker run -it [ docker_image_ID ]
      - run 
    
+   
+   
+ ::: warning
+ *thnk *
+ :::
 ---
-
-reference sample
-https://markdown-it.github.io/
+reference sample https://markdown-it.github.io/  (thanks to github )
