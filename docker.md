@@ -5,7 +5,7 @@
 ### build Dockerfile
 `build` (make sure "." at the end of cmd)
 
-     docker build -t [repositry_name : tag_name] .
+     docker build -t [repositry_name:tag_name] .
      
 ---   
 ### check list
@@ -29,7 +29,9 @@
      
     docker run -it [ docker_image_ID ]
 ---
-`8080 port set run`     
+`8080 port set run`
+
+ie) docker run -p (access port):(docker port expose)  
      
      docker run -p 8080:8080 [ docker_image_ID ]
 ---
