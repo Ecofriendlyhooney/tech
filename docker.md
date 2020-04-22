@@ -1,7 +1,18 @@
 # Docker 
 ## Docker
-### Docker
-+ Extract war file from eclipse
-     - [how to](https://www.codejava.net/ides/eclipse/eclipse-create-deployable-war-file-for-java-web-application)
+### Dockerfile build
+build `code`
+
+     - docker build -t [ repositry_name : tag_name ]
+run `code`     
      
+     - docker run -it [ docker_image_ID ]
+     
+### Dockerfile run
+> docker run -it [ docker_image_ID ]
+     - run 
+
+> docker run -it [ docker_image_ID ]
+     - run 
+   
 ---
