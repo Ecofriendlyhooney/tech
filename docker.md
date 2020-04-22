@@ -12,6 +12,7 @@
 `image list`
 
      docker images
+     docker image ls
      
 ---       
 `container list`
@@ -24,6 +25,11 @@
      docker ps -a
      
 ---   
+`volume list `
+
+     docker volume ls
+     
+---   
 ### run image
 `run`     
      
@@ -31,7 +37,7 @@
 ---
 `8080 port set run`
 
-ie) docker run -p (access port):(docker port expose)  
+ie) docker run -p (localhost:8080):(docker port expose)  
      
      docker run -p 8080:8080 [ docker_image_ID ]
 ---
@@ -43,7 +49,7 @@ ie) docker run -p (access port):(docker port expose)
 ### stop container 
 `stop`
 
-    docker stop [ docker_image_ID ]
+    docker stop [ docker_conatainer_ID ]
 
 ### delete container 
 `image force delete`
@@ -62,6 +68,6 @@ ie) docker run -p (access port):(docker port expose)
 ---
 `delete all images`
 
-    docker system prune -a 
+    docker prune -a 
 ---
 reference sample https://markdown-it.github.io/  (thanks to github )
