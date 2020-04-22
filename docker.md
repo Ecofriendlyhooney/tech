@@ -1,5 +1,6 @@
-# Docker 
-## Docker
+# Docker CMD
+---
+---
 ### Dockerfile build
 
 `build` (make sure "." at the end of cmd)
