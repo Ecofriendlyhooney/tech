@@ -7,9 +7,24 @@
 
      docker build -t [repositry_name : tag_name] .
      
----     
+---   
+### list check
+`image list`
 
-### Docker Image run
+     docker images
+     
+---       
+`container list`
+
+     docker ps
+     
+---   
+`container list detail`
+
+     docker ps -a
+     
+---   
+### image run
 `run`     
      
     docker run -it [ docker_image_ID ]
@@ -23,12 +38,12 @@
      docker run -it --entrypoint /bin/sh [ docker_image_ID ]
 ---  
    
-### Docker container stop
+### container stop
 `stop`
 
     docker stop [ docker_image_ID ]
 
-### Docker container delete
+### container delete
 `image force delete`
 
     docker image rm -f [ docker_image_ID ]
