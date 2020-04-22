@@ -3,10 +3,10 @@
 ### Dockerfile build
 build `code`
 
-     - docker build -t [ repositry_name : tag_name ]
+     docker build -t [ repositry_name : tag_name ]
 run `code`     
      
-     - docker run -it [ docker_image_ID ]
+     docker run -it [ docker_image_ID ]
      
 ### Dockerfile run
 > docker run -it [ docker_image_ID ]
@@ -16,3 +16,6 @@ run `code`
      - run 
    
 ---
+
+reference sample
+https://markdown-it.github.io/
