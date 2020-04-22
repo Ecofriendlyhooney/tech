@@ -2,7 +2,6 @@
 ---
 ---
 ### Dockerfile build
-
 `build` (make sure "." at the end of cmd)
 
      docker build -t [repositry_name : tag_name] .
@@ -10,7 +9,6 @@
 ---     
 
 ### Docker Image run
-
 `run`     
      
     docker run -it [ docker_image_ID ]
