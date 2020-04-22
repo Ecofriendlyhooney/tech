@@ -2,13 +2,13 @@
 
 ---
 ---
-### Dockerfile build
+### build Dockerfile
 `build` (make sure "." at the end of cmd)
 
      docker build -t [repositry_name : tag_name] .
      
 ---   
-### list check
+### check list
 `image list`
 
      docker images
@@ -24,7 +24,7 @@
      docker ps -a
      
 ---   
-### image run
+### run image
 `run`     
      
     docker run -it [ docker_image_ID ]
@@ -38,15 +38,25 @@
      docker run -it --entrypoint /bin/sh [ docker_image_ID ]
 ---  
    
-### container stop
+### stop container 
 `stop`
 
     docker stop [ docker_image_ID ]
 
-### container delete
+### delete container 
 `image force delete`
 
     docker image rm -f [ docker_image_ID ]
+---
+`delete all images`
+
+    docker system prune -a 
+---
+### change image name
+`change`
+
+    docker tag [ docker_image_ID ] [ new_REPOSITORY_name:new_TAG_name ]
+    docker tag [ old_REPOSITORY_name:old_TAG_name ] [ new_REPOSITORY_name:new_TAG_name ]
 ---
 `delete all images`
 
