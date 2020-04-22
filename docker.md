@@ -7,7 +7,8 @@
      docker build -t [repositry_name : tag_name] .
      
 ---     
-### Dockerfile run
+
+### Docker Image run
 
 `run`     
      
