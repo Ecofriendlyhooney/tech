@@ -12,7 +12,7 @@
 
 `run`     
      
-     docker run -it [ docker_image_ID ]
+    docker run -it [ docker_image_ID ]
 ---
 `8080 port set run`     
      
@@ -23,21 +23,18 @@
      docker run -it --entrypoint /bin/sh [ docker_image_ID ]
 ---  
    
-### Dockerfile Delete
-> docker run -it [ docker_image_ID ]
-     - run 
+### Docker container stop
+`stop`
 
-> docker run -it [ docker_image_ID ]
-     - run 
-   
-`df`   
-   
-::: warning
+    docker stop [ docker_image_ID ]
 
-*here be dragons*
+### Docker container delete
+`image force delete`
 
-:::
+    docker image rm -f [ docker_image_ID ]
+---
+`delete all images`
 
-
+    docker system prune -a 
 ---
 reference sample https://markdown-it.github.io/  (thanks to github )
